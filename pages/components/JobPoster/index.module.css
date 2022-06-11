@@ -1,0 +1,103 @@
+.skyblue{
+    background-color: #EDF6FF;
+   
+}
+.container {
+    max-width: 1151px;
+     margin: 0 auto;
+  }
+  .job_content{
+     position: absolute;
+     left:173px;
+     top:80px;
+  }
+  
+
+.jobPoster{
+    display: flex;
+    flex-wrap: wrap;  
+    margin-left: 167px;
+   
+}
+.header{ 
+    padding: 12px 70px;
+    width: 100%;
+    height: 210px; 
+    background: transparent linear-gradient(248deg, #303F60 0%, #1A253C 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  
+  }
+.hv_center_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #303f60;
+  } 
+.job_content h2{
+       margin-top: 20px;
+       margin-bottom: 20px;
+  }
+.post{
+color:#303F60;
+width: 262px;
+padding: 15px;
+margin-right: 18px;
+ border-radius: 5px;
+ margin-bottom: 45px;
+ background-color: #ffffff;
+}
+.post:nth-child(4n){
+     margin-right: 0;
+}
+.post h4{
+    font-size: 17px;
+}
+.post p{
+     font-size: 14px;
+     margin-top: 10px;
+     margin-bottom: 20px;
+    
+}
+.post small{
+     font-size: 14px;
+     width: 94px;
+     overflow-wrap: break-word;
+}
+.post button{
+    background: #43AFFF33 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    border: none;
+    padding: 9px 15px;
+    display: inline-block;
+    cursor: pointer;
+    /* margin-left: 20px; */
+ }
+.flex{
+       display: flex;
+       justify-content:  space-between;
+       align-items: center;    
+  }
+   .skyblue1{
+    background-color: #EDF6FF;
+    position: relative;
+    height: 600px;
+    text-align: center;
+   }
+.jobPostEmpty{
+   color: #303F60;
+       position: absolute;
+       left:50%;
+       top:50%;
+       transform: translate(-50%,-50%);
+   }
+.jobPostEmpty a{
+     margin-top: 40px;
+     display: inline-block;
+     padding: 13px 34px;
+     background: #43AFFF 0% 0% no-repeat padding-box;
+     border: 1px solid #43AFFF;
+     border-radius: 5px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+   }
